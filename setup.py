@@ -8,9 +8,9 @@ setup(
     author_email='volodia.el.azimani@gmail.com',
     entry_points={
         'console_scripts': [
-            'train = my_model.main:train_model',
-            'evaluate = my_model.main:evaluate',
-            'predict = my_model.main:predict'
+            'train = main:train_model',
+            'evaluate = main:evaluate',
+            'predict = main:predict'
         ],
     }
 )
